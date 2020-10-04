@@ -42,7 +42,6 @@ $result = $db->q('
    'is', $pop, $zip);
 // $result = number of affected rows
 
-
 $result = $db->q('
   DELETE FROM City
   WHERE Zip = ?',
